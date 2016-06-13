@@ -1,0 +1,1 @@
+# datatables-uikit-crud-plugin
