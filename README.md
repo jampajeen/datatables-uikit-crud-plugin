@@ -1,6 +1,6 @@
 # datatables-uikit-crud-plugin
 
-jQuery plugin for [datatables.js with UIKit styling](https://datatables.net/examples/styling/uikit.html)
+jQuery plugin for [datatables.js with UIKit styling](https://datatables.net/examples/styling/uikit.html) 
 
 ![example-img](https://dl.dropboxusercontent.com/u/68317444/datatables-uikit-add2.png)
 
@@ -10,8 +10,9 @@ jQuery plugin for [datatables.js with UIKit styling](https://datatables.net/exam
 #### Features
   * Custom top-right button for create new record.
   * Custom top-right refresh button.
-  * Modal dialog for "Add", "Edit", "View".
+  * Modal dialog for "Add", "Edit", "View" event.
   * Support for server-side data only.
+  * Easy & simple for UI customization.
   
 #### Usage
 Include plugin
@@ -56,47 +57,21 @@ Create html add, edit, view template
 Create plugin object
 ```
 var mytable = $('#users-list-table').vhDataTables({
-    columns: [ // this is normal datatables columns usage
-        {
-            "data": "userId",
-            "visible": false
-        }, 
-        {
-            "data": "username"
-        }, 
-        {
-            "data": "email"
-        }, 
-        {
-
-            "data": "activated"
-        }, 
-        {
-
-            "data": "clientId"
-        }, 
-        {
-            "data": "authorityList",
-            orderable: false
-        }
+    columns: [ 
+    	// this is normal datatables.js columns binding 
     ],
-    customSearchParams: { // search parameter for serverside processing
-        s_fromdate: '',
-        s_todate: '',
-        s_category: '',
-        s_status: '',
-        s_location: '',
-        s_keyword: ''
+    customSearchParams: { 
+    	// custom search parameters used for serverside processing
     },
-    dataUrl: VH_APP_CONTEXT + '/users/datatables', // URL for request records to show in table
+    dataUrl: '/users/datatables', // URL for request records to show in table
     onClickEdit: function(data) {
-        // after click edit button
+        // click edit button
     },
     onClickView: function(data) {
-        // after click view button
+        // click view button
     },
     onClickAdd: function() {
-        // after click create button
+        // click create button
     },
     onSubmitAdd: function(data) {
         // do ajax post to server
@@ -107,7 +82,7 @@ var mytable = $('#users-list-table').vhDataTables({
 });
 ```
 
-*** You can see full completed example in test/index.html
+*** You can see completed example in test/index.html
 
 See also official [UIKit website](http://getuikit.com/)
 
