@@ -2,6 +2,8 @@
 
 jQuery plugin for [datatables.js with UIKit styling](https://datatables.net/examples/styling/uikit.html)
 
+![example-img](https://dl.dropboxusercontent.com/u/68317444/datatables-uikit-add2.png)
+
 #### Features
   * Custom top-right button for create new record.
   * Custom top-right refresh button.
