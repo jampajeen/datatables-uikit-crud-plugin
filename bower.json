@@ -25,8 +25,7 @@
     "node_modules",
     "bower_components",
     "nbproject",
-    "test",
-    "tests"
+    "test"
   ],
   "dependencies": {
     "datatables": "1.10.11",
