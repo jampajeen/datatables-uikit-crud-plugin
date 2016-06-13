@@ -1,0 +1,12 @@
+{
+  "name": "datatables-uikit-crud-plugin",
+  "version": "0.0.1",
+  "private": true,
+  "appPath": "src",
+  "dependencies": {
+    "jquery": "2.2.0",
+    "uikit": "2.25.0",
+    "jquery-validate": "1.14.0",
+    "datatables": "1.10.11"
+  }
+}
