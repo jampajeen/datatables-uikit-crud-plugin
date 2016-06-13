@@ -1,9 +1,7 @@
-/* 
- * jQuery plugin : datatables-uikit-crud-plugin
- * Version v1.0.0-beta
+/*! datatables-uikit-crud-plugin 1.0.0
  * Author: Thitipong Jampajeen
  * https://github.com/jampajeen/datatables-uikit-crud-plugin
- * License: MIT
+ * MIT License
  */
 (function ($) {
 
