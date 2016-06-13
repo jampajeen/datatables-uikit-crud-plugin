@@ -1,12 +1,36 @@
 {
   "name": "datatables-uikit-crud-plugin",
-  "version": "0.0.1",
-  "private": true,
-  "appPath": "src",
+  "version": "0.1",
+  "private": false,
+  "homepage": "https://github.com/jampajeen/datatables-uikit-crud-plugin",
+  "authors": [
+    "Thitipong Jampajeen <jampajeen@gmail.com>"
+  ],
+  "description": "jQuery plugin for datatables.js crud operations with uikit styling theme",
+  "main": [
+    "src/vh.datatables.js"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "datatables",
+    "uikit"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "nbproject",
+    "test",
+    "tests"
+  ],
   "dependencies": {
-    "jquery": "2.2.0",
-    "uikit": "2.25.0",
+    "datatables": "1.10.11",
     "jquery-validate": "1.14.0",
-    "datatables": "1.10.11"
+    "uikit": "2.25.0"
   }
 }
