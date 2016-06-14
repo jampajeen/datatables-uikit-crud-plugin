@@ -14,6 +14,11 @@ jQuery plugin for [datatables.js with UIKit styling](https://datatables.net/exam
   * Support for server-side data only.
   * Easy & simple for UI customization.
   
+#### Installation
+```
+bower install datatables-uikit-crud-plugin
+```
+
 #### Usage
 Include plugin
 ```
