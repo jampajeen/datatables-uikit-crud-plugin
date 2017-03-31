@@ -2,10 +2,10 @@
 
 jQuery plugin for [datatables.js with UIKit styling](https://datatables.net/examples/styling/uikit.html) 
 
-![example-img](https://www.dropbox.com/s/9t2dc1orkdwiy76/datatables-uikit-add2.png)
+![example-img](https://github.com/jampajeen/datatables-uikit-crud-plugin/blob/master/doc/datatables-uikit-add2.png?raw=true)
 
 
-![example-img2](https://www.dropbox.com/s/6ee38026x77d28i/datatables-uikit-add.png)
+![example-img2](https://github.com/jampajeen/datatables-uikit-crud-plugin/blob/master/doc/datatables-uikit-add.png?raw=true)
 
 #### Features
   * Custom top-right button for create new record.
